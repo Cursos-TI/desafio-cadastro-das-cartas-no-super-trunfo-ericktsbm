@@ -29,12 +29,15 @@ printf("Digite o PIB: \n");
 scanf("%f", &PIB);
 
 printf("Digite a quantidade de pontos turisticos: \n");
-scanf("%d", &quantidade_de_pontos_turisticos);
+scanf("%d", &quantidade_de_pontos_turisticos); printf("\n");
 
-printf("Estado: %c - Código: %s\n", estado, codigo_da_carta);
-printf("Cidade: %s - População: %d\n", cidade, populacao);
-printf("Área: %f - PIB: %f\n", area,PIB);
-printf("Quantidade de pontos turisticos: %d\n", quantidade_de_pontos_turisticos);
+printf("Estado: %c\n", estado);
+printf("Código: %s\n", codigo_da_carta);
+printf("Cidade: %s\n", cidade);
+printf("População: %d\n", populacao);
+printf("Área: %.2f\n", area);
+printf("PIB: %.2f\n", PIB);
+printf("Quantidade de pontos turísticos: %d\n", quantidade_de_pontos_turisticos);printf("\n");
 
 return 0;
 
